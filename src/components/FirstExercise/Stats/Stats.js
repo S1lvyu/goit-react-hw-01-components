@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './Stats.module.css';
+import PropTypes from 'prop-types';
 export default function Stats({ stats }) {
   return (
     <ul className={styles.list}>
@@ -15,3 +16,4 @@ export default function Stats({ stats }) {
     </ul>
   );
 }
+Stats.propTypes = { stats: PropTypes.object };

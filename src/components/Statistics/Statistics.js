@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './Statistics.module.css';
-
+import PropTypes from 'prop-types';
 export default function Statistics({ title, stats }) {
   const getRandomColor = () => {
     const colors = ['red', 'blue', 'green', 'yellow', 'purple', 'orange'];
@@ -30,3 +30,7 @@ export default function Statistics({ title, stats }) {
     </section>
   );
 }
+Statistics.propTypes = {
+  title: PropTypes.string,
+  stats: PropTypes.array,
+};
