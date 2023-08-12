@@ -1,0 +1,27 @@
+.list {
+  list-style: none;
+  display: flex;
+  margin: 0 auto;
+  padding: 0;
+  justify-content: space-around;
+  background-color: #e9fefc;
+  color: gray;
+
+  border-radius: 10px;
+}
+.list__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  flex-grow: 1;
+  gap: 20px;
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+.list__span {
+  color: black;
+  font-weight: bold;
+}

@@ -1,0 +1,7 @@
+.profile {
+  max-width: 300px;
+  margin: 50px auto;
+  border: 2px solid gray;
+  border-radius: 15px;
+  box-shadow: 10px 10px 10px gray;
+}
